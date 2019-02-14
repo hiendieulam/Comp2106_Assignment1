@@ -1,0 +1,307 @@
+￼/* CSS */
+body {
+	font: 100%/1.25 Helvetica, Arial, sans-serif !important;
+	color: #333;
+	width:100%;
+	background-color: #02352e;
+}
+/** Image responsiveness when changing the device used **/
+img {
+	width: 100%;
+}
+
+nav.navbar {
+	background-color:#131313 !important;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+a.nav-link {
+	color: white !important;
+}
+
+/**************** HEADER ****************/
+/** A format as background-color, border, width, position,font-size,.. in header **/
+header {
+	background-color: rgba(0, 0, 0, 0.9);
+	width: 100%;
+	font-size: 1em;
+	font-family: oswald;
+}
+
+.btn.btn-outline-secondary {
+	background-color: #333;
+	border-color: #cc9933;
+}
+
+/**************  THE DISCRIPTION PRODUCTS FORMAT  **************/
+/** H5 format as font family, font size, color, padding in disscription product **/
+h5.jewelrygallery  {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 2em;
+	color: #000000;
+	text-align: center;
+	padding-left: 1.5%;
+	font-weight: bolder;
+	/* padding-top: 2%; */
+}
+
+h4.jewelrygallery  {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 1.5em;
+	color: #333;
+	text-align: center;
+	padding-left: 1.5%;
+}
+
+h3.text-muted {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 1em;
+	color: #02352e;
+	text-align: center;
+	/* padding-top: 2%; */
+	padding-bottom: 2%;
+}
+
+p  {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 1em;
+	color: #666;
+	text-align: center;
+	padding-left: 1.5%;
+}
+
+/* Using your browser's DOM Inspector, figure out how the default .carousel-caption is positioned with CSS, and change it */
+.carousel-caption {
+	top: 5%;
+	left: 1%;
+}
+.carousel-indicators {
+	top: 90%;
+}
+.carousel-control-prev {
+	width: 10%;
+	height:10%;
+	padding-top: 55%;
+
+}
+.carousel-control-next {
+	width: 10%;
+	height:10%;
+	padding-top: 55%;
+
+}
+h5.section-heading  {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 1.8em;
+	color: #02352e;
+	text-align: center;
+	padding-left: 1.5%;
+	/* padding-top: 3%; */
+	padding-bottom: 3%;
+	font-weight: bolder;
+}
+
+.row {
+	background-color: #dbe5f1;
+}
+.pistilligallery{
+	background-color: #ebb241;
+}
+
+#advleft {
+	background-color: #cc9933;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 1em;
+	margin-bottom: 0.5%;
+}
+#advleft h2 {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 2.5em;
+	color: black;
+	/* padding-top: 3%; */
+	padding-bottom: 3%;
+}
+#advleft p {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 1.2em;
+	color: white;
+	text-align: left;
+	padding-top: 1%;
+}
+#adv1 {
+	padding-bottom: 1%;
+	/* padding-top:15%; */
+}
+#adv2 {
+	/* padding-top:1%; */
+	padding-bottom: 1%;
+}
+#advleft2 {
+	padding-bottom: 1%;
+	/* padding-top: 10%; */
+
+}
+
+#advright2 h2 {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 2.5em;
+	color: white;
+	/* padding-top: 10%; */
+	padding-bottom: 1%;
+}
+
+.col-lg-12 {
+	padding-bottom: 1%;
+}
+
+.col-md-offset-1 {
+	margin-left: auto;
+}
+
+.col-sm-3 {
+	margin-left: auto;
+}
+.col-md-8 {
+	margin-left: auto;
+}
+.row p {
+	padding-left: 1%;
+	padding-top: 1%;
+}
+h2 {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	padding-left: 1%;
+	padding-top: 1%;
+}
+
+#sendMessageButton {
+	background-color: #02352e;
+	border-color: #014f3f;
+	color:white;
+}
+#sendMessageButton:hover {
+	background-color:#02352e;
+	border-color: #014f3f;
+	color:#014f3f;
+}
+/********* CONTACT   *********/
+#contact {
+	font-family: 'Open Sans', sans-serif;
+	font-size:12px;
+	font-weight: bolder;
+}
+#contact h5 {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	padding-left: 1%;
+	padding-top: 3%;
+	font-weight: bolder;
+	font-size: 2.5em;
+}
+/************** FOOTER **************/
+/** Format as margin, padding, width, height, border, color, background, line-height, font size, font family, position,...for all the class, id, a.. in the footer **/
+footer
+{
+	position:relative;
+	clear:both;
+	width:auto;
+	height: 100%;
+	margin-top: auto;
+	background:#333;
+	border-top: 5px solid #cc9933;
+}
+footer h3 {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	padding-left: 0;
+	padding-top: 15%;
+	color:#ffcc66;
+	font-size: 1em;
+	text-align: center;
+
+}
+footer p {
+	font-family: 'Open Sans', sans-serif;
+	padding-left: 0;
+	color:white;
+	font-size: 0.8em;
+	text-align: center;
+}
+/** id copyright format as margin, position, width, border, background, position **/
+#copyright
+{
+		height:60px;
+		position:relative;
+		bottom:0;
+		left:0;
+		width:100%;
+		padding-bottom: 15px;
+}
+/** Class wrapper format as margin, position, width, height, background, position, font-family **/
+#copyright .wrapper
+{
+	font-family: 'Open Sans', sans-serif;
+	padding-top:10px;
+	color: #cc9933;
+	font-size:12px;
+	font-weight: bolder;
+	position:relative;
+	height: 100%;
+}
+/** Class social format as right, position, top **/
+#copyright .wrapper .social
+{
+	position:absolute;
+	right:0;
+	top:10px;
+}
+/** A format as transition, opacity, display, float of <a> in class social **/
+#copyright .wrapper .social a
+{
+	transition: opacity .25s ease;
+	opacity: 0.3;
+	margin-left: 12px;
+	display:block;
+	float:left;
+}
+#copyright .wrapper .social a:hover
+{
+	opacity: 0.7;
+}
+#copyright .wrapper a
+{
+	color: white;
+}
+
+#copyright .wrapper a:hover
+{
+	color: #cc9933;
+}
+/** Class hidden format as position **/
+.hidden
+{
+	position:absolute;
+	clip: rect(1px 1px 1px 1px); /* IE6 & 7 */
+	clip: rect(1px, 1px, 1px, 1px);
+}
+/** Class top format as float right and margin auto when user click to this button the website will go to the top of page  **/
+.top {
+	float: right;
+	margin: auto;
+}
+
+/* View the result in the browser, then head back to index.html */
+/* The below class and animation keyframes are used by the JavaScript */
+.zoomit {
+	animation: zoom-in-out .5s;
+}
+@keyframes zoom-in-out {
+	from {
+		transform: none;
+	}
+	50% {
+		transform: scale(1.4);
+		transform-origin: center top;
+	}
+	to {
+		transform: none;
+	}
+}
