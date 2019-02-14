@@ -3,7 +3,8 @@ body {
 	font: 100%/1.25 Helvetica, Arial, sans-serif !important;
 	color: #333;
 	width:100%;
-	background-color: #02352e;
+	background-color: #a2a3a3;
+	margin-top: 10%;
 }
 /** Image responsiveness when changing the device used **/
 img {
@@ -175,14 +176,14 @@ h2 {
 }
 
 #sendMessageButton {
-	background-color: #02352e;
-	border-color: #014f3f;
+	background-color: #ebb241;
+	border-color: #fac863;
 	color:white;
 }
 #sendMessageButton:hover {
-	background-color:#02352e;
-	border-color: #014f3f;
-	color:#014f3f;
+	background-color:#b37b0d;
+	border-color: #8b703a;
+	color:#f1f5f4;
 }
 /********* CONTACT   *********/
 #contact {
