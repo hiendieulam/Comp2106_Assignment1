@@ -1,0 +1,59 @@
+doctype html
+html
+	head
+		title= title
+		link(rel='stylesheet', href='/stylesheets/style.css')
+		link(rel='stylesheet', href='https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css', integrity='sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS', crossorigin='anonymous')
+		link(rel='stylesheet', href='https://use.fontawesome.com/releases/v5.7.1/css/all.css', integrity='sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr', crossorigin='anonymous')
+
+	body
+		nav.navbar.navbar-expand-lg.navbar-light.bg-light
+			a.navbar-brand(href='/')
+				img.d-inline-block.align-top(src='images/logo_150x80.png', alt='Pistilli', height='80', width='150')
+			button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarSupportedContent', aria-controls='navbarSupportedContent', aria-expanded='false', aria-label='Toggle navigation')
+				span.navbar-toggler-icon
+			#navbarSupportedContent.collapse.navbar-collapse
+				ul.navbar-nav.mr-auto
+					li.nav-item.active
+						a.nav-link(href='/')
+							| Home 
+							span.sr-only (current)
+					li.nav-item
+						a.nav-link(href='/about-me') About Me
+					li.nav-item.dropdown
+						a#navbarDropdown.nav-link.dropdown-toggle(href='#', role='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false') Projects
+						.dropdown-menu(aria-labelledby='navbarDropdown')
+							a.dropdown-item(href='projects') Project 1
+							.dropdown-divider
+							a.dropdown-item(href='projects') Project 2
+					li.nav-item
+						a.nav-link(href='/services') Services
+					li.nav-item
+						a.nav-link(href='/contact-me') Contact Me
+
+		block content
+
+		footer
+			// Introduse some information about the company to customers
+			.container-fluid
+				section#copyright
+					h3.hidden Copyright notice
+					.wrapper
+						// Create imagesto associate with Social Networking
+						.social
+							a(href='https://twitter.com', target='_blank', title='Click to view twitter')
+								img(src='images/twitter.png', alt='twitter', width='25')
+							a(href='https://www.facebook.com', target='_blank', title='Click to view facebook')
+								img(src='images/facebook.png', alt='facebook', width='25')
+							a(href='https://www.pinterest.ca', target='_blank', title='Click to view pinterest')
+								img(src='images/pinterest.png', alt='pinterest', width='25')
+							a(href='https://www.linkedin.com', target='_blank', title='Click to view linkedin')
+								img(src='images/linkedin.png', alt='linkedin', width='25')
+						| 							Copyright 2018 PISTILLI COMPANY. 
+						a(href='') Privacy 
+						a(href='') Site Map
+				.row(style='background-color:#333')
+		script(src='https://code.jquery.com/jquery-3.3.1.slim.min.js', integrity='sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo', crossorigin='anonymous')
+		script(src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js', integrity='sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut', crossorigin='anonymous')
+		script(src='https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js', integrity='sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k', crossorigin='anonymous')
+		block endingContent
