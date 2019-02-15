@@ -1,7 +1,6 @@
-# Comp2106_Assignment1
-Assignment 1 - Express Portfolio Site
+
 # COMP2106 – Advanced Server Side Scripting:
-# Assignment 1 - Express Portfolio Site:
+#Assignment 1 - Express Portfolio Site:
 
 
 - Website have 5 pages:
@@ -33,8 +32,6 @@ Assignment 1 - Express Portfolio Site
 -Contact Me Page:
 
   - Fill in your information on the form to contact with me.
-
-
 
 
 -My Link: https://comp2106-assignment-1.herokuapp.com
